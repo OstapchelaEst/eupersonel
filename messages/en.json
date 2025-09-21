@@ -1,0 +1,40 @@
+{
+  "Index": {
+    "title": "Start your journey with us",
+    "subtitle": "Learn more about how we can help you grow your career.",
+    "client": "Client page",
+    "worker": "Check job offers"
+  },
+  "About": {
+    "title": "About us",
+    "content_1": "Welcome to our website! We are a company that strives to connect talented professionals with the best opportunities in the job market. Our mission is to simplify the job search process and help everyone find their calling.",
+    "content_2": "We believe that the right job is not just a source of income, but a way to realize your potential and contribute to a common cause. Our vacancies are carefully selected so that you can find a position that perfectly matches your skills and ambitions."
+  },
+  "Vacancies": {
+    "title": "Our vacancies",
+    "no_vacancies": "There are no open vacancies at the moment.",
+    "salary": "Salary",
+    "location": "Location",
+    "edit": "Edit",
+    "delete": "Delete",
+    "add_new": "Add new vacancy",
+    "confirm_delete_title": "Are you sure?",
+    "confirm_delete_description": "This action cannot be undone. The vacancy will be permanently deleted.",
+    "confirm_delete_cancel": "Cancel",
+    "confirm_delete_action": "Delete"
+  },
+  "Auth": {
+    "login_title": "Administrator login",
+    "login_description": "Enter your login and password to access the admin panel.",
+    "login_username": "Login",
+    "login_password": "Password",
+    "login_button": "Log in",
+    "login_error": "Invalid login or password."
+  },
+  "Header": {
+    "logout": "Log out"
+  },
+  "Misc": {
+    "company_name": "Company"
+  }
+}

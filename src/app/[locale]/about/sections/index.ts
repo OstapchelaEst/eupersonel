@@ -1,0 +1,7 @@
+export * from './services'
+export * from './hero'
+export * from './benefits'
+export * from './work-together'
+export * from './work-together-introduction'
+export * from './legalization'
+export * from './partners'

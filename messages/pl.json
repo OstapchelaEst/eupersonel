@@ -1,0 +1,40 @@
+{
+  "Index": {
+    "title": "Rozpocznij swoją drogę z ",
+    "subtitle": "Dowiedz się więcej o tym, jak możemy pomóc Ci w rozwoju Twojej kariery.",
+    "client": "Strona klienta",
+    "worker": "Sprawdź oferty pracy"
+  },
+  "About": {
+    "title": "O nas",
+    "content_1": "Witamy na naszej stronie! Jesteśmy firmą, która stara się połączyć utalentowanych specjalistów z najlepszymi możliwościami na rynku pracy. Naszą misją jest uproszczenie procesu poszukiwania pracy i pomoc każdemu w znalezieniu swojego powołania.",
+    "content_2": "Wierzymy, że właściwa praca to nie tylko źródło dochodu, ale sposób na zrealizowanie swojego potencjału i wniesienie wkładu w ogólną sprawę. Nasze oferty pracy są starannie wybierane, abyś mógł znaleźć stanowisko, które idealnie pasuje do Twoich umiejętności i ambicji."
+  },
+  "Vacancies": {
+    "title": "Nasze oferty pracy",
+    "no_vacancies": "Obecnie nie ma żadnych otwartych ofert pracy.",
+    "salary": "Pensja",
+    "location": "Lokalizacja",
+    "edit": "Edytuj",
+    "delete": "Usuń",
+    "add_new": "Dodaj nowe wolne miejsce pracy",
+    "confirm_delete_title": "Jesteś pewien?",
+    "confirm_delete_description": "Tego działania nie można cofnąć. Oferta pracy zostanie trwale usunięta.",
+    "confirm_delete_cancel": "Anuluj",
+    "confirm_delete_action": "Usuń"
+  },
+  "Auth": {
+    "login_title": "Logowanie administratora",
+    "login_description": "Wprowadź swój login i hasło, aby uzyskać dostęp do panelu administracyjnego.",
+    "login_username": "Login",
+    "login_password": "Hasło",
+    "login_button": "Zaloguj się",
+    "login_error": "Nieprawidłowy login lub hasło."
+  },
+  "Header": {
+    "logout": "Wyloguj się"
+  },
+  "Misc": {
+    "company_name": "Firma"
+  }
+}
