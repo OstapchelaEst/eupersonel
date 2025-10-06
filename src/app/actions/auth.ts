@@ -42,7 +42,8 @@ export async function login(username: string, password: string) {
 }
 
 export async function logout() {
-  ;(await cookies()).delete('auth_token')
+  const storedCookie = await cookies()
+  storedCookie.delete('auth_token')
   redirect('/pl')
 }
 

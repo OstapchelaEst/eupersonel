@@ -1,11 +1,13 @@
 import { NextResponse } from 'next/server'
-import { cookies } from 'next/headers'
 
 export async function POST() {
   try {
-    const cookieStore = await cookies()
+    const response = NextResponse.json(
+      { message: 'Logout successfully' },
+      { status: 200 }
+    )
 
-    cookieStore.set({
+    response.cookies.set({
       name: 'auth_token',
       value: '',
       maxAge: 0,

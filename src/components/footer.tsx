@@ -10,7 +10,7 @@ import { CONTACTS } from '@/utils/constants'
 export function Footer() {
   return (
     <footer className="footer">
-      <div className="footer_col">
+      <div className="footer_col max-650:order-2">
         <a
           href="https://linkedin.com"
           target="_blank"
@@ -36,11 +36,11 @@ export function Footer() {
           <FaFacebook className="footer_icon" />
         </a>
       </div>
-      <div className="mb-4 md:mb-0">
+      <div className=" max-650:order-1">
         <p>@EUPERSONEL</p>
       </div>
 
-      <div className="footer_col">
+      <div className="footer_col max-650:order-3">
         <Email />
 
         <a

@@ -5,19 +5,19 @@ import React from 'react'
 const data = [
   {
     label: 'Rekrutacja',
-    img: 'https://images.unsplash.com/photo-1517048676732-d65bc937f952?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+    img: '/services/services-1.webp',
   },
   {
     label: 'Praca tymczasowa',
-    img: 'https://images.unsplash.com/photo-1542744173-8e7e53415bb0?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+    img: '/services/services-2.webp',
   },
   {
     label: 'Outsourcing procesowy',
-    img: 'https://images.unsplash.com/photo-1563986768609-322da13575f3?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+    img: '/services/services-3.webp',
   },
   {
     label: 'Legalizacja pobytu i zatrudnienia obcokrajowców',
-    img: 'https://images.unsplash.com/photo-1695388474402-ed805a890d8d?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+    img: '/services/services-4.webp',
   },
 ]
 
@@ -30,8 +30,8 @@ const ServiceCard: React.FC<ServiceCardProps> = ({ label, img }) => {
   return (
     <div className="relative group overflow-hidden h-96 rounded-xl transition-all duration-500">
       <Image
-        width={300}
-        height={384}
+        width={800}
+        height={400}
         src={img}
         alt={label}
         className="absolute inset-0 w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"

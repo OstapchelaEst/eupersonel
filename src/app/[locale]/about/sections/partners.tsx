@@ -18,11 +18,11 @@ const partners = [
 export const Partners = () => {
   return (
     <section className="page_section">
-      <div className="container mx-auto px-4">
-        <h2 className="text-center text-3xl md:text-4xl font-extrabold text-gray-900 mb-12">
+      <div className="container mx-auto">
+        <h2 className="text-center text-3xl md:text-4xl font-extrabold text-gray-900 mb-12 ">
           Nasi partnerzy
         </h2>
-        <div className="max-w-6xl mx-auto grid grid-cols-2 sm:grid-cols-2 md:grid-cols-4 lg:grid-cols-4 gap-6">
+        <div className="max-w-6xl mx-auto grid grid-cols-2 sm:grid-cols-2 md:grid-cols-4 lg:grid-cols-4 gap-6 max-850:gap-4">
           {partners.map((partner) => (
             <a
               key={partner.name}
@@ -36,7 +36,7 @@ export const Partners = () => {
                   height={384}
                   src={partner.logo}
                   alt={partner.name}
-                  className="h-12 w-auto  transition-all duration-300 grayscale group-hover:grayscale-0" //
+                  className="h-12 w-auto object-contain transition-all duration-300 grayscale group-hover:grayscale-0" //
                 />
               </div>
             </a>

@@ -8,7 +8,7 @@ export const Hero = () => {
       <div className="relative">
         <div className="grid grid-cols-1 md:grid-cols-2 items-center gap-12 relative z-10">
           <div className="flex flex-col justify-center h-full">
-            <h1 className="text-5xl md:text-6xl font-extrabold text-gray-900 mb-6 leading-tight drop-shadow-md">
+            <h1 className="max-850:text-center text-5xl md:text-6xl font-extrabold text-gray-900 mb-6 leading-tight drop-shadow-md">
               EUPERSONEL
             </h1>
             <p className="text-lg text-gray-700 mb-4 leading-relaxed">
@@ -27,7 +27,7 @@ export const Hero = () => {
 
             <Button
               size="xl"
-              className="w-fit"
+              className="w-fit max-850:w-full"
             >
               Więcej
             </Button>
@@ -37,9 +37,9 @@ export const Hero = () => {
             <div className="absolute inset-0 bg-gray-200 rounded-3xl shadow-xl transform rotate-3 scale-105 origin-top-left"></div>
             <div className="absolute inset-0  border-2  border-gray-400 rounded-3xl z-20 flex items-center justify-center overflow-hidden">
               <Image
-                src="https://plus.unsplash.com/premium_photo-1661284828052-ea25d6ea94cd?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-                width={300}
-                height={384}
+                src="/about/hero.webp"
+                width={600}
+                height={484}
                 alt="Image"
                 className="w-full h-full object-cover"
               />

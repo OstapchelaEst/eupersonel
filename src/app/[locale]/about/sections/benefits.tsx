@@ -34,7 +34,7 @@ export const Benefits = () => {
     <section className="page_section">
       <h2 className="page_title">Dlaczego właśnie my?</h2>
 
-      <div className="grid grid-cols-3 gap-10">
+      <div className="grid grid-cols-3 gap-10 max-1150:grid-cols-2  max-950:grid-cols-1">
         {data.map((item) => (
           <Card
             {...item}

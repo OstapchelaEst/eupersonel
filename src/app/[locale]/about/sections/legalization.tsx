@@ -103,7 +103,7 @@ const ServicesSection = () => (
 )
 
 const AdditionalFeatureSection = () => (
-  <div className="flex flex-col items-center text-center mb-12">
+  <div className="flex flex-col items-center text-center mb-12 max-850:px-4">
     <div className="bg-white p-6 rounded-lg shadow-md flex items-center justify-center gap-4">
       <div className="text-brand">
         {React.cloneElement(featureItem.icon, {

@@ -4,6 +4,11 @@
 @custom-variant dark (&:is(.dark *));
 
 @theme inline {
+  --breakpoint-1150: 1150px;
+  --breakpoint-950: 950px;
+  --breakpoint-850: 850px;
+  --breakpoint-650: 650px;
+
   --color-background: var(--background);
   --color-foreground: var(--foreground);
   --font-sans: var(--font-geist-sans);
@@ -160,6 +165,10 @@
   .inner_layout & {
     @apply flex-row gap-8 items-center;
   }
+
+  @media (max-width: 650px) {
+    @apply flex-row justify-center;
+  }
 }
 
 .footer {
@@ -168,14 +177,26 @@
   .inner_layout & {
     @apply py-8;
   }
+
+  @media (max-width: 650px) {
+    @apply flex-col items-center gap-4;
+  }
 }
 
 .page_title {
   @apply text-5xl font-bold mb-10 text-center;
+
+  @media (max-width: 850px) {
+    @apply text-4xl;
+  }
 }
 
 .page_section {
   @apply py-20;
+
+  @media (max-width: 850px) {
+    @apply py-14;
+  }
 }
 
 .services_card {
@@ -207,4 +228,6 @@
       }
     }
   }
+}
+@media (max-width: 650px) {
 }

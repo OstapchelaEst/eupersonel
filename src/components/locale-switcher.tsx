@@ -1,9 +1,10 @@
 'use client'
 
+import { cn } from '@/lib/utils'
 import { Button } from './ui/button'
 import { usePathname, useRouter } from 'next/navigation'
 
-export function LocaleSwitcher() {
+export function LocaleSwitcher({ className }: { className?: string }) {
   const router = useRouter()
   const pathname = usePathname()
 
@@ -21,7 +22,10 @@ export function LocaleSwitcher() {
 
   return (
     <Button
-      className="min-w-[3.5rem] cursor-pointer transition-all duration-300 active:scale-90"
+      className={cn(
+        'min-w-[3.5rem] cursor-pointer transition-all duration-300 active:scale-90',
+        className
+      )}
       variant="ghost"
       onClick={onLocaleChange}
     >

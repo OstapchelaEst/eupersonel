@@ -40,10 +40,10 @@ export const WorkTogether = () => {
       <div className="container mx-auto px-4 max-w-4xl">
         <div className="text-center mb-12 md:mb-16">
           <FaUsersGear className="text-brand w-16 h-16 mx-auto mb-4" />
-          <h2 className="text-3xl md:text-4xl font-extrabold text-gray-900 mb-2">
+          <h2 className="text-2xl md:text-4xl font-extrabold text-gray-900 mb-4">
             {sectionData.introText}
           </h2>
-          <p className="text-xl md:text-2xl text-gray-600">
+          <p className="text-lg md:text-2xl text-gray-600">
             {sectionData.subIntroText}
           </p>
         </div>
@@ -64,7 +64,9 @@ export const WorkTogether = () => {
               </div>
 
               <div className="ml-6">
-                <p className="text-lg text-gray-700">{step.text}</p>
+                <p className="text-lg text-gray-700 max-850:text-base">
+                  {step.text}
+                </p>
               </div>
             </div>
           ))}
