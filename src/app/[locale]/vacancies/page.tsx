@@ -31,7 +31,7 @@ export default async function VacanciesPage({
     <div className="flex min-h-screen flex-col inner_layout">
       <Header />
       <main className="flex-1 page_section">
-        <div className="flex justify-between items-center mb-6">
+        <div className="flex justify-between items-center mb-6 max-850:text-center max-850:flex-col gap-4">
           <h1 className="text-4xl font-bold">{t('title')}</h1>
           {isAdmin && <CreateVacancyModal />}{' '}
         </div>
@@ -46,31 +46,6 @@ export default async function VacanciesPage({
                 //@ts-expect-error type
                 key={vacancy._id}
               />
-              // <Card key={vacancy?._id}>
-              //   <CardHeader>
-              //     <CardTitle>{vacancy?.title?.[locale]}</CardTitle>
-              //   </CardHeader>
-              //   <CardContent>
-              //     <p className="text-sm text-muted-foreground">
-              //       {vacancy?.description?.[locale]}
-              //     </p>
-              //     <p className="mt-2 text-sm">
-              //       <strong>{t('salary')}:</strong> {vacancy.salary}
-              //     </p>
-              //     <p className="mt-1 text-sm">
-              //       <strong>{t('location')}:</strong>{' '}
-              //       {vacancy?.location?.[locale]}
-              //     </p>
-              //     {isAdmin && (
-              //       <div className="mt-4 flex gap-2">
-              //         {/* @ts-expect-error type */}
-              //         <EditVacancyModal vacancy={vacancy} />
-              //         {/* @ts-expect-error type */}
-              //         <DeleteVacancyModal vacancyId={vacancy?._id} />
-              //       </div>
-              //     )}
-              //   </CardContent>
-              // </Card>
             ))
           ) : (
             <p className="text-center col-span-full text-muted-foreground">

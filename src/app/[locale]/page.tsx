@@ -18,7 +18,7 @@ export default async function HomePage() {
       <Header />
       <main className="flex-1 flex flex-col justify-center items-center p-4 text-center">
         <div className="p-4">
-          <h1 className="text-5xl font-bold mb-4 leading-16 max-850:text-4xl max-850:leading-12 max-850:mb-2">
+          <h1 className="text-5xl font-bold mb-4 leading-16 max-850:text-3xl max-850:leading-9 max-850:mb-2">
             {t('title')} <br /> <b>EUPERSONEL</b>
           </h1>
           <p className="text-lg text-muted-foreground max-850:text-base">

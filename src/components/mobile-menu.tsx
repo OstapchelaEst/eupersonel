@@ -48,6 +48,16 @@ export const MobileMenu = async () => {
           >
             <Link href={`/vacancies`}>{t1('worker')}</Link>
           </Button>
+
+          {isAdmin && (
+            <Button
+              onClick={logout}
+              size="xl"
+              className="text-lg min-w-[300px]"
+            >
+              <LogOut className="h-4 w-4 mr-2" /> {t('logout')}
+            </Button>
+          )}
         </div>
 
         <div className="flex flex-col gap-2 items-center">
@@ -64,14 +74,6 @@ export const MobileMenu = async () => {
             {CONTACTS.EMAIL}
           </a>
           <LocaleSwitcher className="bg-gray-100" />
-          {isAdmin && (
-            <Button
-              onClick={logout}
-              className="mt-4"
-            >
-              <LogOut className="h-4 w-4 mr-2" /> {t('logout')}
-            </Button>
-          )}
         </div>
       </SheetContent>
     </Sheet>
